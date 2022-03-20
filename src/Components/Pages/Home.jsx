@@ -1,13 +1,9 @@
+/** @format */
+
 import React from "react";
 
-const Home = () =>{
-
-
-    return(
-        <div>
-            <h1>Home</h1>
-        </div>
-    )
-}
+const Home = () => {
+	return <div>Home component</div>;
+};
 
 export default Home;
