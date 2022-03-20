@@ -1,9 +1,14 @@
 /** @format */
 
 import React from "react";
+import Gallery from "../Molecules/Gallery";
 
 const Projects = () => {
-	return <div>Projects</div>;
+	return (
+		<div>
+			<Gallery />
+		</div>
+	);
 };
 
 export default Projects;
