@@ -12,7 +12,7 @@ const Home = () => {
 						Humberto García
 					</h1>
 					<p className="mb-8 text-white leading-relaxed font-semibold">
-						Soy un disarrolador web que se encuenta iniciando su propio camino en el mundo profesional. Mi pasión es programar. Cuando se trata de estar frente del ordenador creando paginas web o analizando problemas de maquetación, es todo un gusto para mi, dejame ayudarte con mi experiencía y conociemiento. Siempre busco retos que me hagas crecer!!.
+						Soy un disarrolador web que se encuenta iniciando su propio camino en el mundo profesional. Mi pasión es programar. Cuando se trata de estar frente del ordenador creando paginas web o analizando problemas de maquetación, es todo un gusto para mi, dejame ayudarte con mi experiencía y conociemiento. Siempre busco retos que me hagan crecer!!.
 					</p>
 					<div className="flex justify-center">
 						<NavLink to="/contact-me">

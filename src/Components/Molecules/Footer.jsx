@@ -25,7 +25,7 @@ const Footer = () => {
 					</a>
 				</p>
 				<span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-					<a href="/" className="ml-3 ">
+					<a href="https://twitter.com/Humbert47535406?t=Q-O4F6bcaULmk-97wsOa0A&s=09" target="_blank" rel="noreferrer" className="ml-3 ">
 						<svg
 							fill="currentColor"
 							strokeLinecap="round"
@@ -37,7 +37,7 @@ const Footer = () => {
 						</svg>
 					</a>
 
-					<a href="/" className="ml-3 ">
+					<a href="https://www.linkedin.com/in/humberto-garcía" target="_blank" rel="noreferrer" className="ml-3 ">
 						<svg
 							fill="currentColor"
 							stroke="currentColor"
