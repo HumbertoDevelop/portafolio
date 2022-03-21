@@ -5,6 +5,7 @@ import React from "react";
 const Contact = () => {
 	return (
 		<section className="text-white body-font relative h-screen grid items-center">
+            
 			<div className="absolute inset-0 bg-white ">
 				<iframe
 					title="map"
@@ -14,7 +15,7 @@ const Contact = () => {
 					marginheight="0"
 					marginwidth="0"
 					scrolling="no"
-					src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"></iframe>
+					src="https://maps.google.com/maps?q=El%20valle%20del%20espiritu%20santo&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 			</div>
 			<div className="container px-5 py-24 mx-auto flex">
 				<div className="lg:w-1/3 md:w-1/2 bg-gray-900 shadow-md rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10">
