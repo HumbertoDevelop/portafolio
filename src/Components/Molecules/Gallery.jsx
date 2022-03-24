@@ -11,9 +11,9 @@ const Gallery = () => {
 						Portafolio
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-						Mi grupo de proyectos creados con mi conocimiento en algunas
-						tecnologías web, para mostrar un poco de lo que mas me gusta hacer y
-						como lo sé hacer
+						My group of projects was created with my knowledge in some web
+						technologies, to show a little of what I like to do the most and how
+						to do it
 					</p>
 				</div>
 				<div className="flex flex-wrap m-4">
@@ -30,12 +30,12 @@ const Gallery = () => {
 								rel="noreferrer">
 								<div className=" py-12  relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
 									<h1 className="title-font text-lg font-medium text-white mb-3">
-										Plataforma de cursos en linea
+										Online Courses PLatform
 									</h1>
 									<p className="leading-relaxed">
-										Una plataforma de cursos y especialidades de idiomas, esta
-										plataforma te permite agregar los cursos que quieras a tu
-										carrito de compras y comprar los cursos que desees.
+										A platform for language courses and specialties, this the
+										platform allows you to add the courses you want to your
+										shopping cart and buy the courses you want.
 									</p>
 								</div>
 							</a>

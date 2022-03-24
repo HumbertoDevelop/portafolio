@@ -21,13 +21,13 @@ const Header = () => {
 						viewBox="0 0 24 24">
 						<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
 					</svg>
-					<span className="ml-3 text-xl">Portafolio </span>
+					<span className="ml-3 text-xl">Portfolio</span>
 				</a>
 				<nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-6">
-					<NavLink to="/">Inicio</NavLink>
-					<NavLink to="/proyectos">Proyectos</NavLink>
-					<NavLink to="/aptitudes">Aptitudes</NavLink>
-					<NavLink to="/contactame">Mi Contacto</NavLink>
+					<NavLink to="/">Home</NavLink>
+					<NavLink to="/proyectos">Projects</NavLink>
+					<NavLink to="/aptitudes">Skills</NavLink>
+					<NavLink to="/contactame">Contact me</NavLink>
 				</nav>
 			</div>
 		</header>
