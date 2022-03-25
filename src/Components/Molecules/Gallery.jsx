@@ -14,7 +14,9 @@ const Gallery = () => {
 						Portafolio
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-					With my knowledge in some web technologies, I've created a platform form learning languages to show a little of what I like to do the most and how to do it.
+						With my knowledge in some web technologies, I've created a platform
+						form learning languages to show a little of what I like to do the
+						most and how to do it.
 					</p>
 				</div>
 				<div className="flex flex-wrap m-4">
@@ -34,26 +36,8 @@ const Gallery = () => {
 										Online Courses PLatform
 									</h1>
 									<p className="leading-relaxed">
-									This platform allows you to add the languages courses you want to your shopping cart, and then buy them.
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
-						<div className="flex relative h-50">
-							<img
-								alt="gallery"
-								className="absolute inset-0 w-full h-full object-cover object-center"
-								src={def}
-							/>
-							<a href="/" target="_blank" rel="noreferrer">
-								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
-										404 Page
-									</h1>
-									<p className="leading-relaxed">
-										Page 404 Error
+										This platform allows you to add the languages courses you
+										want to your shopping cart, and then buy them.
 									</p>
 								</div>
 							</a>
@@ -66,6 +50,21 @@ const Gallery = () => {
 								className="absolute inset-0 w-full h-full object-cover object-center"
 								src={proyecto2}
 							/>
+							<a href="/" target="_blank" rel="noreferrer">
+								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
+									<h1 className="title-font text-lg font-medium text-white mb-3">
+										The Catalyzer
+									</h1>
+									<p className="leading-relaxed">
+										Photo booth fam kinfolk cold-pressed sriracha leggings
+										jianbing microdosing tousled waistcoat.
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div className="lg:w-1/3 sm:w-1/2 p-2">
+						<div className="flex relative">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
@@ -89,11 +88,6 @@ const Gallery = () => {
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
-								src="https://dummyimage.com/602x362"
-							/>
-							<img
-								alt="gallery"
-								className="absolute inset-0 w-full h-full object-cover object-center"
 								src={def}
 							/>
 							<a href="/" target="_blank" rel="noreferrer">
@@ -114,11 +108,6 @@ const Gallery = () => {
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
-								src="https://dummyimage.com/605x365"
-							/>
-							<img
-								alt="gallery"
-								className="absolute inset-0 w-full h-full object-cover object-center"
 								src={def}
 							/>
 							<a href="/" target="_blank" rel="noreferrer">
@@ -136,11 +125,6 @@ const Gallery = () => {
 					</div>
 					<div className="lg:w-1/3 sm:w-1/2 p-2">
 						<div className="flex relative">
-							<img
-								alt="gallery"
-								className="absolute inset-0 w-full h-full object-cover object-center"
-								src="https://dummyimage.com/606x366"
-							/>
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
