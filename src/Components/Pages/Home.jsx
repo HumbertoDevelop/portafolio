@@ -6,9 +6,9 @@ import picProfile from "../img/pic3.jpg";
 
 const Home = () => {
 	return (
-		<section className=" bg-gray-900 body-font h-screen grid ">
-			<div className="container mx-auto flex px-5 gap-x-10 md:flex-row  items-center">
-				<div className=" lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+		<section className=" bg-gray-900 body-font grid">
+			<div className="container mx-auto flex smx2:flex-col lgx1:px-0 lgx1:justify-around px-5 gap-x-10 smx2:gap-x-0 md:flex-row items-center justify-center">
+				<div className=" lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-start md:text-left mb-16 smx2:my-10  md:mb-0 items-center text-center">
 					<h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-red-700">
 						Humberto García
 					</h1>
@@ -28,9 +28,9 @@ const Home = () => {
 						</NavLink>
 					</div>
 				</div>
-				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-6/12 flex justify-center">
+				<div className="lg:max-w-sm lg:w-full lg:h-3/4 lgx1:w-1/4 w-6/12 flex justify-center smx2:my-10">
 					<img
-						className="object-cover object-center rounded h-96"
+						className="object-cover object-center rounded "
 						alt="hero"
 						src={picProfile}
 					/>

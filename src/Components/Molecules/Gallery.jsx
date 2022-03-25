@@ -43,20 +43,24 @@ const Gallery = () => {
 							</a>
 						</div>
 					</div>
-					<div className="lg:w-1/3 sm:w-1/2 p-2">
+					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
 						<div className="flex relative">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
 								src={proyecto2}
 							/>
-							<a href="/" target="_blank" rel="noreferrer">
-								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
+							<a
+								href="https://thirsty-fermi-be297c.netlify.app"
+								target="_blank"
+								rel="noreferrer">
+								<div className=" py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
 									<h1 className="title-font text-lg font-medium text-white mb-3">
 										Page 404
 									</h1>
 									<p className="leading-relaxed">
-										Page error 404 
+										This static page 404 it was created with Html and Csse 
+										from scratch
 									</p>
 								</div>
 							</a>

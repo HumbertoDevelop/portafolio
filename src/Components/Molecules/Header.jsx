@@ -23,7 +23,7 @@ const Header = () => {
 					</svg>
 					<span className="ml-3 text-xl">Portfolio</span>
 				</a>
-				<nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center gap-6">
+				<nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-center gap-6 ">
 					<NavLink to="/">Home</NavLink>
 					<NavLink to="/proyectos">Projects</NavLink>
 					<NavLink to="/aptitudes">Skills</NavLink>
