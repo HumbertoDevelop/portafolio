@@ -21,7 +21,7 @@ const Home = () => {
 						always looking for new goals
 					</p>
 					<div className="flex justify-center">
-						<NavLink to="/contact-me">
+						<NavLink to="/contact">
 							<button className="inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-800 rounded text-lg">
 								Contact me!
 							</button>
