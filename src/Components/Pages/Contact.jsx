@@ -44,7 +44,8 @@ const Contact = () => {
 						</h3>
 						<h4>Venezuela | Porlamar | El Valle Del Espritu Santo</h4>
 					</div>
-					<a href="mailto:humbertodev14@gmail.com">
+					<a href="
+					https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target="_blank" rel="noreferrer">
 						<button className="text-white bg-red-900 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">
 							Send a email 
 						</button>
