@@ -53,11 +53,10 @@ const Gallery = () => {
 							<a href="/" target="_blank" rel="noreferrer">
 								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
 									<h1 className="title-font text-lg font-medium text-white mb-3">
-										The Catalyzer
+										Page 404
 									</h1>
 									<p className="leading-relaxed">
-										Photo booth fam kinfolk cold-pressed sriracha leggings
-										jianbing microdosing tousled waistcoat.
+										Page error 404 
 									</p>
 								</div>
 							</a>
