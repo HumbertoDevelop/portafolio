@@ -2,7 +2,9 @@
 
 import React from "react";
 import proyecto1 from "../images/plataforma-de-cursos.png";
+import proyecto2 from "../images/404.png";
 import def from "../images/default.jpeg";
+
 const Gallery = () => {
 	return (
 		<section className="text-white bg-gray-900 body-font h-screen grid items-center">
@@ -48,11 +50,10 @@ const Gallery = () => {
 							<a href="/" target="_blank" rel="noreferrer">
 								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
 									<h1 className="title-font text-lg font-medium text-white mb-3">
-										The Catalyzer
+										404 Page
 									</h1>
 									<p className="leading-relaxed">
-										Photo booth fam kinfolk cold-pressed sriracha leggings
-										jianbing microdosing tousled waistcoat.
+										Page 404 Error
 									</p>
 								</div>
 							</a>
@@ -63,7 +64,7 @@ const Gallery = () => {
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
-								src="https://dummyimage.com/603x363"
+								src={proyecto2}
 							/>
 							<img
 								alt="gallery"
