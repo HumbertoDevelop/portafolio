@@ -26,6 +26,7 @@ const Home = () => {
 								Contact me!
 							</button>
 						</NavLink>
+						
 					</div>
 				</div>
 				<div className="lg:max-w-sm lg:w-full lg:h-3/4 lgx1:w-1/4 w-6/12 flex justify-center smx2:my-10">

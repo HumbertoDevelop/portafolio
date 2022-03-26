@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 	return (
 		<header className="text-white bg-red-900 body-font">
-			<div className="container mx-auto flex flex-wrap py-3 pl-4 flex-col md:flex-row items-center">
+			<div className="container mx-auto flex flex-wrap py-3 justify-center flex-col md:flex-row items-center">
 				<a
 					href="/"
 					className="flex title-font font-medium items-center  mb-4 md:mb-0">
