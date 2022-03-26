@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
 	return (
-		<section className="text-white body-font relative grid items-center">
+		<section className="text-white body-font relative h-screen grid items-center">
 			<div className="absolute inset-0 bg-white ">
 				<iframe
 					title="map"
