@@ -4,7 +4,7 @@ import React from "react";
 
 const Skills = () => {
 	return (
-		<section className="text-white bg-gray-900 h-screen body-font grid items-center">
+		<section className="text-white bg-gray-900 body-font grid items-center">
 			<div className="container px-5  mx-auto">
 				<div className="text-center mb-20 smx2:my-10">
 					<h1 className=" text-3xl smx2:text-5xl font-bold text-center title-font text-red-700 mb-4">
