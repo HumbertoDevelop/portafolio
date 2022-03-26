@@ -7,10 +7,10 @@ import def from "../images/default.jpeg";
 
 const Gallery = () => {
 	return (
-		<section className="text-white bg-gray-900 body-font h-screen grid items-center">
-			<div className="container px-5  mx-auto">
+		<section className="text-white bg-gray-900 body-font grid items-center">
+			<div className="container px-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-5">
-					<h1 className="sm:text-6xl text-2xl font-medium title-font mb-4 text-red-700">
+					<h1 className="smx2:text-5xl text-2xl font-medium title-font my-4 text-red-700">
 						Portafolio
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -21,7 +21,7 @@ const Gallery = () => {
 				</div>
 				<div className="flex flex-wrap m-4">
 					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
-						<div className="flex relative">
+						<div className="flex relative h-full">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
@@ -44,7 +44,7 @@ const Gallery = () => {
 						</div>
 					</div>
 					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
-						<div className="flex relative">
+						<div className="flex relative h-full">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
@@ -60,14 +60,14 @@ const Gallery = () => {
 									</h1>
 									<p className="leading-relaxed">
 										This static page 404 it was created with Html and Csse 
-										from scratch
+										from scratch.
 									</p>
 								</div>
 							</a>
 						</div>
 					</div>
 					<div className="lg:w-1/3 sm:w-1/2 p-2">
-						<div className="flex relative">
+						<div className="flex relative h-full">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
@@ -87,7 +87,7 @@ const Gallery = () => {
 						</div>
 					</div>
 					<div className="lg:w-1/3 sm:w-1/2 p-2">
-						<div className="flex relative">
+						<div className="flex relative h-full">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
@@ -107,7 +107,7 @@ const Gallery = () => {
 						</div>
 					</div>
 					<div className="lg:w-1/3 sm:w-1/2 p-2">
-						<div className="flex relative">
+						<div className="flex relative h-full">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
@@ -127,7 +127,7 @@ const Gallery = () => {
 						</div>
 					</div>
 					<div className="lg:w-1/3 sm:w-1/2 p-2">
-						<div className="flex relative">
+						<div className="flex relative h-full">
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
