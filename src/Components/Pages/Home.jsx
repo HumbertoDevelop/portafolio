@@ -26,7 +26,11 @@ const Home = () => {
 								Contact me!
 							</button>
 						</NavLink>
-						
+						<a href="https://drive.google.com/file/d/1B9BW9Y7h_Oh4fVdkm00UuB9G5ZiSaxCL/view?usp=sharing">
+							<button className="inline-flex text-white bg-red-600 border-0 ml-6 py-2 px-6 focus:outline-none hover:bg-red-800 rounded text-lg">
+								Download CV
+							</button>
+						</a>
 					</div>
 				</div>
 				<div className="lg:max-w-sm lg:w-full lg:h-3/4 lgx1:w-1/4 w-6/12 flex justify-center smx2:my-10">
