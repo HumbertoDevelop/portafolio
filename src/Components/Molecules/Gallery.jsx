@@ -3,9 +3,11 @@
 import React from "react";
 import proyecto1 from "../images/plataforma-de-cursos.png";
 import proyecto2 from "../images/404.png";
+import proyecto3 from "../images/MovieApp.png";
 import def from "../images/default.jpeg";
 
 const Gallery = () => {
+
 	return (
 		<section className="text-white bg-gray-900 body-font lg:h-screen   grid items-center">
 			<div className="container px-5 mx-auto">
@@ -59,7 +61,7 @@ const Gallery = () => {
 										Page 404
 									</h1>
 									<p className="leading-relaxed">
-										This static page 404 it was created with Html and Csse 
+										This static page 404 it was created with Html and Css 
 										from scratch.
 									</p>
 								</div>
@@ -71,16 +73,16 @@ const Gallery = () => {
 							<img
 								alt="gallery"
 								className="absolute inset-0 w-full h-full object-cover object-center"
-								src={def}
+								src={proyecto3}
 							/>
-							<a href="/" target="_blank" rel="noreferrer">
+							<a href="https://humbertodevelop.github.io/MovieApp-Js/" target="_blank" rel="noreferrer">
 								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
 									<h1 className="title-font text-lg font-medium text-white mb-3">
-										The Catalyzer
+										Movie App
 									</h1>
 									<p className="leading-relaxed">
-										Photo booth fam kinfolk cold-pressed sriracha leggings
-										jianbing microdosing tousled waistcoat.
+										Movie App from scratch with Html Css and Js, using
+										TMDB Api with http method 
 									</p>
 								</div>
 							</a>
