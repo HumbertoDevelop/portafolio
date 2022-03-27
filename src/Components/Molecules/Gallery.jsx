@@ -53,7 +53,7 @@ const Gallery = () => {
 								src={proyecto2}
 							/>
 							<a
-								href="https://thirsty-fermi-be297c.netlify.app"
+								href="https://gentle-praline-4a13cc.netlify.app/"
 								target="_blank"
 								rel="noreferrer">
 								<div className=" py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
