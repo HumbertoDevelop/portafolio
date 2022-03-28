@@ -1,6 +1,5 @@
 /** @format */
 
-import { Route, Routes } from "react-router-dom";
 import Footer from "./Components/Molecules/Footer";
 import Header from "./Components/Molecules/Header";
 import Contact from "./Components/Pages/Contact";

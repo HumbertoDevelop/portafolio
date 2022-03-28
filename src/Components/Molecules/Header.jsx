@@ -24,10 +24,10 @@ const Header = () => {
 					<span className="ml-3 text-xl">Portfolio</span>
 				</a>
 				<nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-center gap-6 ">
-					<NavLink to="/">Home</NavLink>
-					<NavLink to="/proyectos">Projects</NavLink>
-					<NavLink to="/aptitudes">Skills</NavLink>
-					<NavLink to="/contact">Contact me</NavLink>
+					<a href="/"> Home</a>
+					<a href="/"> Projects</a>
+					<a href="/"> Skills</a>
+					<a href="/"> Contact me</a>
 				</nav>
 			</div>
 		</header>
