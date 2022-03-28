@@ -4,11 +4,11 @@ import React from "react";
 
 const Skills = () => {
 	return (
-		<section className="text-stone-300 bg-stone-900 body-font  grid items-center">
-			<div className="container px-5  mx-auto">
-				<div className="text-center mb-20 smx2:my-10">
-					<h1 className=" text-3xl smx2:text-5xl font-bold text-center title-font mb-4">
-						Strong Skills
+		<section className="text-stone-300 bg-stone-900 body-font grid items-center" id="aptitudes">
+			<div className="container px-5  mx-auto mdx1:h-screen grid content-center smx2:pt-28">
+				<div className="text-center mb-20 smx2:mb-0 smx2:mt-10 ">
+					<h1 className=" text-3xl smx2:text-4xl font-bold text-center title-font mb-4">
+						Aptitudes Fuertes
 					</h1>
 				</div>
 				<div className="flex flex-wrap lg:w-4/5 sm:mx-auto smx2:mb-2 mx-2">

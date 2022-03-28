@@ -4,8 +4,8 @@ import React from "react";
 
 const Header = () => {
 	return (
-		<header className="text-stone-400 font-semibold bg-stone-900 body-font fixed z-20 top-0 right-0 left-0">
-			<div className="container mx-auto flex flex-wrap py-3 justify-center flex-col md:flex-row items-center">
+		<header className="text-stone-400 font-semibold bg-stone-900 body-font fixed smx2:pb-2 z-20 top-0 right-0 left-0">
+			<div className="container mx-auto flex flex-wrap justify-center flex-col md:flex-row items-center">
 				<a
 					href="/"
 					className="flex title-font font-medium items-center mb-4 md:mb-0">
@@ -20,13 +20,13 @@ const Header = () => {
 						viewBox="0 0 24 24">
 						<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
 					</svg>
-					<span className="ml-3 text-xl">Portfolio</span>
+					<span className="ml-3 text-xl">Portafolio</span>
 				</a>
 				<nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-center gap-6 ">
-					<a href="/"> Home</a>
-					<a href="/"> Projects</a>
-					<a href="/"> Skills</a>
-					<a href="/"> Contact me</a>
+					<a href="#inicio"> Inicio</a>
+					<a href="#proyectos"> Proyectos</a>
+					<a href="#aptitudes"> Aptitudes</a>
+					<a href="#contactame"> Contactame</a>
 				</nav>
 			</div>
 		</header>
