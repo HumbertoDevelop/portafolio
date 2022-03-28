@@ -1,7 +1,6 @@
 /** @format */
 
 import React from "react";
-import { NavLink } from "react-router-dom";
 import picProfile from "../img/pic3.jpg";
 
 const Home = () => {
@@ -21,16 +20,15 @@ const Home = () => {
 						always looking for new goals
 					</p>
 					<div className="flex justify-center items-center">
-						<NavLink to="/contact">
-							<button className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-700 rounded text-lg">
-								Contact me!
-							</button>
-						</NavLink>
+						<button className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-700 rounded text-lg">
+							Contact me!
+						</button>
+
 						{/* <a href="./HUMBERTO_CV.pdf" download="CV_Humberto.pdf" className="di"> */}
-							<button className="inline-flex text-white bg-red-600 border-0 ml-6 py-2 px-6 focus:outline-none hover:bg-red-800  rounded text-lg grayscale line-through">
-								Download CV
-							</button>
-							<p className="text-white">Coming soon...</p>
+						<button className="inline-flex text-white bg-red-600 border-0 ml-6 py-2 px-6 focus:outline-none hover:bg-red-800  rounded text-lg grayscale line-through">
+							Download CV
+						</button>
+						<p className="text-white">Coming soon...</p>
 						{/* </a> */}
 					</div>
 				</div>
