@@ -5,11 +5,11 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
 	return (
-		<header className="text-white bg-red-900 body-font">
+		<header className="text-stone-400 font-semibold bg-stone-900 body-font fixed z-10 top-0 right-0 left-0">
 			<div className="container mx-auto flex flex-wrap py-3 justify-center flex-col md:flex-row items-center">
 				<a
 					href="/"
-					className="flex title-font font-medium items-center  mb-4 md:mb-0">
+					className="flex title-font font-medium items-center mb-4 md:mb-0">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -17,7 +17,7 @@ const Header = () => {
 						strokeLinecap="round"
 						strokeLinejoin="round"
 						strokeWidth="2"
-						className="w-10 h-10 text-white p-2 bg-red-700 rounded-full"
+						className="w-10 h-10 text-white p-2 bg-stone-700 rounded-full"
 						viewBox="0 0 24 24">
 						<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
 					</svg>

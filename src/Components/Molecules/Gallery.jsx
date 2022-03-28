@@ -9,13 +9,13 @@ import def from "../images/default.jpeg";
 const Gallery = () => {
 
 	return (
-		<section className="text-white bg-gray-900 body-font lg:h-screen   grid items-center">
+		<section className="text-stone-400 font-semibold bg-stone-900 body-font h-screen grid items-center">
 			<div className="container px-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-5">
-					<h1 className="smx2:text-5xl text-2xl font-medium title-font my-4 text-red-700">
+					<h1 className="smx2:text-5xl text-2xl font-medium title-font my-4 text-stone-200 font-bold">
 						Portfolio
 					</h1>
-					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+					<p className="lg:w-2/3 mx-auto leading-relaxed text-base font-semibold text-stone-300">
 						With my knowledge in some web technologies, I've created a platform
 						form learning languages to show a little of what I like to do the
 						most and how to do it.
@@ -33,8 +33,8 @@ const Gallery = () => {
 								href="https://thirsty-fermi-be297c.netlify.app"
 								target="_blank"
 								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
+								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
 										Online Courses PLatform
 									</h1>
 									<p className="leading-relaxed">
@@ -56,8 +56,8 @@ const Gallery = () => {
 								href="https://gentle-praline-4a13cc.netlify.app/"
 								target="_blank"
 								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
+								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
 										Page 404
 									</h1>
 									<p className="leading-relaxed">
@@ -76,8 +76,8 @@ const Gallery = () => {
 								src={proyecto3}
 							/>
 							<a href="https://humbertodevelop.github.io/MovieApp-Js/" target="_blank" rel="noreferrer">
-								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
+								<div className="py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
 										Movie App
 									</h1>
 									<p className="leading-relaxed">
@@ -96,8 +96,8 @@ const Gallery = () => {
 								src={def}
 							/>
 							<a href="/" target="_blank" rel="noreferrer">
-								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
+								<div className="py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
 										The Catalyzer
 									</h1>
 									<p className="leading-relaxed">
@@ -116,8 +116,8 @@ const Gallery = () => {
 								src={def}
 							/>
 							<a href="/" target="_blank" rel="noreferrer">
-								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
+								<div className="py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
 										The Catalyzer
 									</h1>
 									<p className="leading-relaxed">
@@ -136,8 +136,8 @@ const Gallery = () => {
 								src={def}
 							/>
 							<a href="/" target="_blank" rel="noreferrer">
-								<div className="py-12 relative z-10 w-full border-4 border-gray-800 bg-red-900 opacity-0 hover:opacity-100">
-									<h1 className="title-font text-lg font-medium text-white mb-3">
+								<div className="py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
 										The Catalyzer
 									</h1>
 									<p className="leading-relaxed">
