@@ -9,7 +9,7 @@ import def from "../images/default.jpeg";
 const Gallery = () => {
 
 	return (
-		<section className="text-stone-400 font-semibold bg-stone-900 body-font h-screen grid items-center">
+		<section className="text-stone-400 font-semibold bg-stone-900 body-font  grid items-center ">
 			<div className="container px-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-5">
 					<h1 className="smx2:text-5xl text-2xl font-medium title-font my-4 text-stone-200 font-bold">
