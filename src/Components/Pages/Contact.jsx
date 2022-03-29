@@ -1,11 +1,18 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
+import { connect, useDispatch } from "react-redux";
+import { getMeInfo } from "../../redux/actionCreators";
+import FormContact from "../Molecules/FormContact";
 
-const Contact = () => {
+const Contact = ({ info }) => {
+	const meInfo = useDispatch();
+	useEffect(() => {
+		meInfo(getMeInfo(info));
+	}, [meInfo]);
 	return (
 		<section
-			className="text-stone-800 body-font relative h-screen grid items-center"
+			className="text-stone-800 body-font relative grid items-center "
 			id="contactame">
 			<div className="absolute inset-0 bg-white ">
 				<iframe
@@ -23,29 +30,13 @@ const Contact = () => {
 					<h2 className=" text-lg mb-1 font-medium title-font">
 						Información de contacto:
 					</h2>
-					<div className="relative mb-4">
-						<h3>
-							<b>
-								{" "}
-								<address> Celular: </address>
-							</b>
-						</h3>
-						<h4>(+58) 412-093-9794</h4>
-						<h3>
-							<b>
-								{" "}
-								<address> Correo: </address>{" "}
-							</b>
-						</h3>
-						<h4>humbertodev14@gmail.com</h4>
-						<h3>
-							<b>
-								{" "}
-								<address> Dirección: </address>{" "}
-							</b>
-						</h3>
-						<h4>Venezuela | Porlamar | El Valle Del Espritu Santo</h4>
-					</div>
+					{info && (
+						<FormContact
+							phone={info.address.phone}
+							email={info.address.email}
+							street={info.address.street}
+						/>
+					)}
 					<a
 						href="
 					https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
@@ -61,4 +52,8 @@ const Contact = () => {
 	);
 };
 
-export default Contact;
+const mapStateToProps = (state) => ({
+	info: state.getReducer.info,
+});
+
+export default connect(mapStateToProps)(Contact);

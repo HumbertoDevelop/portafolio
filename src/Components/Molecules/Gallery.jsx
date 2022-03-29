@@ -1,26 +1,98 @@
 /** @format */
 
 import React from "react";
-
-const Gallery = ({ id, content, title, url, src }) => {
+import proyecto1 from "../images/plataforma-de-cursos.png";
+import proyecto2 from "../images/404.png";
+import proyecto3 from "../images/MovieApp.png";
+const Gallery = () => {
 	return (
-		<div className="flex flex-wrap m-4">
-			<div className="lg:w-1/3 sm:w-1/2 p-2 ">
-				<div className="flex relative h-full">
-					<img
-						alt="gallery"
-						className="absolute inset-0 w-full h-full object-cover object-center"
-						src={src}
-					/>
-					<a href={url} target="_blank" rel="noreferrer">
-						<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
-							<h1 className="title-font text-lg font-medium  mb-3">{title}</h1>
-							<p className="leading-relaxed">{content}</p>
+		<section className="text-stone-400 font-semibold bg-stone-900 body-font mdx1:h-screen grid items-center ">
+			<div
+				className="container px-5 mx-auto  mdx1:pt-20 smx2:pt-32 "
+				id="proyectos">
+				<div className="flex flex-col text-center w-full mb-5">
+					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold">
+						Portafolio
+					</h1>
+					<p className="lg:w-2/3 mx-auto leading-relaxed text-base font-semibold text-stone-300">
+						Con mi conocimiento en algunas tecnologías web, he creado este
+						portafolio para mostrarte un poco de lo que me gusta hacer y como lo
+						se hacer.
+					</p>
+				</div>
+				<div className="flex flex-wrap m-4">
+					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
+						<div className="flex relative h-full">
+							<img
+								alt="gallery"
+								className="absolute inset-0 w-full h-full object-cover object-center"
+								src={proyecto1}
+							/>
+							<a
+								href="https://thirsty-fermi-be297c.netlify.app/"
+								target="_blank"
+								rel="noreferrer">
+								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
+										Online Courses PLatform
+									</h1>
+									<p className="leading-relaxed">
+										This platform allows you to add the languages courses you
+										want to your shopping cart, and then buy them
+									</p>
+								</div>
+							</a>
 						</div>
-					</a>
+					</div>
+					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
+						<div className="flex relative h-full">
+							<img
+								alt="gallery"
+								className="absolute inset-0 w-full h-full object-cover object-center"
+								src={proyecto2}
+							/>
+							<a
+								href="https://gentle-praline-4a13cc.netlify.app/"
+								target="_blank"
+								rel="noreferrer">
+								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
+										Page 404
+									</h1>
+									<p className="leading-relaxed">
+										This static page 404 it was created with Html and Css from
+										scratch.
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
+						<div className="flex relative h-full">
+							<img
+								alt="gallery"
+								className="absolute inset-0 w-full h-full object-cover object-center"
+								src={proyecto3}
+							/>
+							<a
+								href="https://humbertodevelop.github.io/MovieApp-Js/"
+								target="_blank"
+								rel="noreferrer">
+								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+									<h1 className="title-font text-lg font-medium  mb-3">
+										Movie App
+									</h1>
+									<p className="leading-relaxed">
+										Movie App from scratch with Html Css and Js, using TMDB Api
+										with http method
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

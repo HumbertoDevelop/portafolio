@@ -2,13 +2,13 @@
 
 import React, { useEffect } from "react";
 import picProfile from "../img/pic3.jpg";
-import { connect } from "react-redux";
+import { connect, useDispatch } from "react-redux";
 import { getMeInfo } from "../../redux/actionCreators.js";
-import store from "../../redux/store";
 const Home = ({ info }) => {
+	const meDispatch = useDispatch();
 	useEffect(() => {
-		store.dispatch(getMeInfo());
-	  }, []);
+		meDispatch(getMeInfo());
+	  }, [meDispatch]);
 	return (
 		<section
 			className=" bg-stone-900 text-white body-font grid smx2:pt-58  lgx1:mt-10 "
@@ -16,7 +16,7 @@ const Home = ({ info }) => {
 			<div className="container mx-auto flex smx2:flex-col lgx1:px-0 smx2:pt-32 lgx1:justify-around px-5 gap-x-10 md:flex-row items-center justify-center ">
 				<div className=" lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-start md:text-left mb-16 smx2:my-10  md:mb-0 items-center text-center">
 					<h1 className="title-font sm:text-5xl text-3xl mb-4 font-bold ">
-						{info?.me}
+						{info?.name}
 					</h1>
 					<p className="mb-8 leading-relaxed font-semibold text-stone-200	smx2:px-2">
 						{info?.description}
