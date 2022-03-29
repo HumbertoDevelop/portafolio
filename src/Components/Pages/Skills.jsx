@@ -18,7 +18,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -34,7 +34,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -68,7 +68,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -86,7 +86,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -104,7 +104,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -122,7 +122,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -138,7 +138,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">
@@ -156,7 +156,7 @@ const Skills = () => {
 								fill="none"
 								stroke="currentColor"
 								strokeLinecap="round"
-								strokeJoin="round"
+								strokejoin="round"
 								strokeWidth="3"
 								className="text-stone-400 w-6 h-6 flex-shrink-0 mr-4"
 								viewBox="0 0 24 24">

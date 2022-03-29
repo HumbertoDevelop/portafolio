@@ -9,6 +9,7 @@ import Skills from "./Components/Pages/Skills";
 import "./App.css";
 
 function App() {
+	
 	return (
 		<div className="App relative" >
 			<Header />

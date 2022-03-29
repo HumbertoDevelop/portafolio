@@ -1,3 +1,43 @@
 {
-	
+	"info": {
+		"me": "Humberto García",
+		"description": "I'm a web developer who's beginning to built it's own way into the professional world. My passion is to code. it's a pleasure for me to work in front of my computer building professional websites, analyzing responsive web design issues or fixing bugs. I'll help you to build your own web site with my experience and my knowledge. I'm always looking for new goals"
+	},
+	"skills": [
+		"Html",
+		"Css",
+		"Scss",
+		"JavaScript",
+		"React Js",
+		"Redux",
+		"MobX",
+		"ContextApi",
+		"Responsive Web Design",
+		"Boostrap",
+		"Tailwind Css"
+	],
+	"gallery": {
+		"title": "Porfolio",
+		"content": "With my knowledge in some web technologies, I've created a platform form learning languages to show a little of what I like to do the most and how to do it.",
+		"projects": [
+			{
+				"id": 1,
+				"title": "Online Courses PLatform",
+				"content": "This platform allows you to add the languages courses you want to your shopping cart, and then buy them",
+				"url": "https://thirsty-fermi-be297c.netlify.app/"
+			},
+			{
+				"id": 2,
+				"title": "Page 404",
+				"content": "This static page 404 it was created with Html and Css from scratch.",
+				"url": "https://gentle-praline-4a13cc.netlify.app/"
+			},
+			{
+				"id": 3,
+				"title": "Movie App",
+				"content": "Movie App from scratch with Html Css and Js, using TMDB Api with http method ",
+				"url": "https://humbertodevelop.github.io/MovieApp-Js/"
+			}
+		]
+	}
 }

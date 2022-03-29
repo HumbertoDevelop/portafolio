@@ -1,9 +1,14 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import picProfile from "../img/pic3.jpg";
-
-const Home = () => {
+import { connect } from "react-redux";
+import { getMeInfo } from "../../redux/actionCreators.js";
+import store from "../../redux/store";
+const Home = ({ info }) => {
+	useEffect(() => {
+		store.dispatch(getMeInfo());
+	  }, []);
 	return (
 		<section
 			className=" bg-stone-900 text-white body-font grid smx2:pt-58  lgx1:mt-10 "
@@ -11,14 +16,10 @@ const Home = () => {
 			<div className="container mx-auto flex smx2:flex-col lgx1:px-0 smx2:pt-32 lgx1:justify-around px-5 gap-x-10 md:flex-row items-center justify-center ">
 				<div className=" lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-start md:text-left mb-16 smx2:my-10  md:mb-0 items-center text-center">
 					<h1 className="title-font sm:text-5xl text-3xl mb-4 font-bold ">
-						Humberto García
+						{info?.me}
 					</h1>
 					<p className="mb-8 leading-relaxed font-semibold text-stone-200	smx2:px-2">
-						Soy un desarrollador web que se encuentra iniciando su propio camino
-						en el mundo profesional. Mi pasión es programar. Cuando se trata de
-						estar frente a una computadora creando o analizando problemas de
-						maquetación web, es todo un gusto para mí. Busco retos que me hagan
-						crecer.
+						{info?.description}
 					</p>
 					<div className="flex justify-center items-center">
 						<button className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-700 rounded text-lg">
@@ -47,4 +48,8 @@ const Home = () => {
 	);
 };
 
-export default Home;
+const mapStateToProps = (state) => ({
+	info: state.getReducer.info,
+});
+
+export default connect(mapStateToProps, {})(Home);

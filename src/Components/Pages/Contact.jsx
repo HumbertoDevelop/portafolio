@@ -12,9 +12,9 @@ const Contact = () => {
 					title="map"
 					width="100%"
 					height="100%"
-					frameborder="0"
-					marginheight="0"
-					marginwidth="0"
+					frameBorder="0"
+					marginHeight="0"
+					marginWidth="0"
 					scrolling="no"
 					src="https://maps.google.com/maps?q=El%20valle%20del%20espiritu%20santo&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 			</div>
