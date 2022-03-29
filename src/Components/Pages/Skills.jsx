@@ -7,8 +7,8 @@ import { getSkills } from "../../redux/actionCreators";
 const Skills = ({ skills }) => {
 	const skillDispatch = useDispatch();
 	useEffect(() => {
-		skillDispatch(getSkills(skills));
-	}, [skillDispatch, skills]);
+		skillDispatch(getSkills());
+	}, [skillDispatch]);
 
 	return (
 		<section

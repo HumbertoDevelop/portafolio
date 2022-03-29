@@ -8,11 +8,11 @@ import FormContact from "../Molecules/FormContact";
 const Contact = ({ info }) => {
 	const meInfo = useDispatch();
 	useEffect(() => {
-		meInfo(getMeInfo(info));
-	}, [info, meInfo]);
+		meInfo(getMeInfo());
+	}, [meInfo]);
 	return (
 		<section
-			className="text-stone-800 body-font relative grid items-center "
+			className="text-stone-800 body-font relative grid items-center"
 			id="contactame">
 			<div className="absolute inset-0 bg-white ">
 				<iframe
