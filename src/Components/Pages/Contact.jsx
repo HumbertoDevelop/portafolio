@@ -9,7 +9,7 @@ const Contact = ({ info }) => {
 	const meInfo = useDispatch();
 	useEffect(() => {
 		meInfo(getMeInfo(info));
-	}, [meInfo]);
+	}, [info, meInfo]);
 	return (
 		<section
 			className="text-stone-800 body-font relative grid items-center "
