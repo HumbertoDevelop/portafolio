@@ -17,7 +17,7 @@ const Skills = ({ skills }) => {
 			<div className="container px-5  mx-auto mdx1:h-screen grid content-center smx2:pt-28">
 				<div className="text-center mb-20 smx2:mb-0 smx2:mt-10 ">
 					<h1 className=" text-3xl smx2:text-4xl font-bold text-center title-font mb-4">
-						Aptitudes Fuertes
+						Strong Skills
 					</h1>
 				</div>
 				<div className="flex flex-wrap lg:w-4/5 sm:mx-auto smx2:mb-2 mx-2">

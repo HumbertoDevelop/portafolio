@@ -12,12 +12,12 @@ const Gallery = () => {
 				id="proyectos">
 				<div className="flex flex-col text-center w-full mb-5">
 					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold">
-						Portafolio
+						Portfolio
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base font-semibold text-stone-300">
-						Con mi conocimiento en algunas tecnologías web, he creado este
-						portafolio para mostrarte un poco de lo que me gusta hacer y como lo
-						se hacer.
+						With my knowledge in some web technologies, I have created this
+						portfolio to show you what I portfolio to show you a bit of what I
+						like to do and how I do it. I know how to do it.
 					</p>
 				</div>
 				<div className="flex flex-wrap m-4">
