@@ -16,8 +16,7 @@ const Gallery = () => {
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base font-semibold text-stone-300">
 						With my knowledge in some web technologies, I have created this
-						portfolio to show you what I portfolio to show you a bit of what I
-						like to do and how I do it. I know how to do it.
+						portfolio to show you what I like to do and how I do it.
 					</p>
 				</div>
 				<div className="flex flex-wrap m-4">
