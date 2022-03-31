@@ -28,7 +28,7 @@ const Contact = ({ info }) => {
 			<div className="container px-5 py-24 mx-auto flex">
 				<div className="lg:w-1/3 md:w-1/2 bg-stone-100 shadow-md rounded-lg p-8 flex flex-col smx2:flex-wrap md:ml-auto w-full mt-10 md:mt-0 relative z-10">
 					<h2 className=" text-lg mb-1 font-medium title-font">
-						Información de contacto:
+						Contact Information:
 					</h2>
 					{info && (
 						<FormContact
