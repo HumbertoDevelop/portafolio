@@ -43,7 +43,7 @@ const Contact = ({ info }) => {
 						target="_blank"
 						rel="noreferrer">
 						<button className="text-white bg-stone-900 border-0 py-2 px-6 focus:outline-none hover:bg-stone-800 rounded text-lg">
-							Escribeme al Correo
+							Send a email
 						</button>
 					</a>
 				</div>
