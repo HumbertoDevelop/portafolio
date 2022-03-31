@@ -23,10 +23,10 @@ const Header = () => {
 					<span className="ml-3 text-xl">Portafolio</span>
 				</a>
 				<nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-xl justify-center gap-6 ">
-					<a href="#inicio"> Inicio</a>
-					<a href="#proyectos"> Proyectos</a>
-					<a href="#aptitudes"> Aptitudes</a>
-					<a href="#contactame"> Contactame</a>
+					<a href="#inicio"> Home</a>
+					<a href="#proyectos"> Projects</a>
+					<a href="#aptitudes"> Skills</a>
+					<a href="#contactame"> Contact</a>
 				</nav>
 			</div>
 		</header>

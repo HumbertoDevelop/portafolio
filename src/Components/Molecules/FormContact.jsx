@@ -6,21 +6,21 @@ const FormContact = ({phone,email,street}) => {
     <h3>
         <b>
             {" "}
-            <address> Celular: </address>
+            <address> Phone: </address>
         </b>
     </h3>
     <h4>{phone}</h4>
     <h3>
         <b>
             {" "}
-            <address> Correo: </address>{" "}
+            <address> Email: </address>{" "}
         </b>
     </h3>
     <h4>{email}</h4>
     <h3>
         <b>
             {" "}
-            <address> Dirección: </address>{" "}
+            <address> Address: </address>{" "}
         </b>
     </h3>
     <h4>{street}</h4>
