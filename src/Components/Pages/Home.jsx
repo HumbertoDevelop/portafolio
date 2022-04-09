@@ -8,7 +8,7 @@ const Home = ({ info }) => {
 	const meDispatch = useDispatch();
 	useEffect(() => {
 		meDispatch(getMeInfo());
-	  }, [meDispatch]);
+	}, [meDispatch]);
 	return (
 		<section
 			className=" bg-stone-900 text-white body-font grid smx2:pt-58  lgx1:mt-10 "
@@ -22,18 +22,11 @@ const Home = ({ info }) => {
 						{info?.description}
 					</p>
 					<div className="flex justify-center items-center">
-						<button className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-700 rounded text-lg">
-							Contact me!
-						</button>
-
-						{/* <a href="./HUMBERTO_CV.pdf" download="CV_Humberto.pdf" className="di"> */}
-						<div className="smx1:flex items-center">
-							<button className="inline-flex text-white bg-red-600 border-0 ml-6 py-2 px-6 focus:outline-none hover:bg-red-800  rounded text-lg grayscale line-through">
-								Download CV
+						<a href="#contactame">
+							<button className="inline-flex text-white bg-stone-500 border-0 py-2 px-6 focus:outline-none hover:bg-stone-700 rounded text-lg">
+								Contact me!
 							</button>
-							<p className="text-white">Coming soon!...</p>
-						</div>
-						{/* </a> */}
+						</a>
 					</div>
 				</div>
 				<div className="lg:max-w-sm lg:w-full lg:h-3/4 lgx1:w-1/4 w-6/12 flex justify-center smx2:my-10">
