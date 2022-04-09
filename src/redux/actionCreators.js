@@ -1,7 +1,8 @@
 import axios from "axios";
 import { GET_INFO, GET_SKILLS, GET_PROJECTS } from "./action";
 
-const API_URL = process.env.REACT_APP_URL_API;
+// const API_URL = "https://portafolio-api-v2.herokuapp.com";
+const API_URL = "http://localhost:8000";
 
 export const getMeInfo = () => (dispatch) => {
     axios
@@ -15,7 +16,7 @@ export const getMeInfo = () => (dispatch) => {
 }
 export const getSkills = () => (dispatch) => {
     axios
-		.get(`${process.env.REACT_APP_URL_API}/skills`)
+		.get(`${API_URL}/skills`)
 		.then((res) => {
 			return dispatch({type: GET_SKILLS, skills: res.data})
 		})
@@ -25,7 +26,7 @@ export const getSkills = () => (dispatch) => {
 }
 export const getProjects = () => (dispatch) => {
     axios
-		.get(`${process.env.REACT_APP_URL_API}/gallery`)
+		.get(`${API_URL}/gallery`)
 		.then((res) => {
 			return dispatch({type: GET_PROJECTS, projects: res.data})
 		})

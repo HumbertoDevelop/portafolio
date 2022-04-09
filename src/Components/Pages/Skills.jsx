@@ -14,7 +14,7 @@ const Skills = ({ skills }) => {
 		<section
 			className="text-stone-300 bg-stone-900 body-font grid items-center justify-center"
 			id="aptitudes">
-			<div className="container px-5  mx-auto mdx1:h-screen grid content-center smx2:pt-28">
+			<div className="container px-5  mx-auto mdx1:h-screen grid content-center smx2:py-28">
 				<div className="text-center mb-20 smx2:mb-0 smx2:mt-10 ">
 					<h1 className=" text-3xl smx2:text-4xl font-bold text-center title-font mb-4">
 						Strong Skills

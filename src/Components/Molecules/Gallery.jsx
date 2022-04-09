@@ -8,7 +8,7 @@ const Gallery = () => {
 	return (
 		<section className="text-stone-400 font-semibold bg-stone-900 body-font mdx1:h-screen grid items-center ">
 			<div
-				className="container px-5 mx-auto  mdx1:pt-20 smx2:pt-32 "
+				className="container px-5 mx-auto  mdx1:pt-20 smx2:py-28 "
 				id="proyectos">
 				<div className="flex flex-col text-center w-full mb-5">
 					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold">
