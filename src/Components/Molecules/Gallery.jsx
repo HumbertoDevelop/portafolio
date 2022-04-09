@@ -4,6 +4,7 @@ import React from "react";
 import proyecto1 from "../images/plataforma-de-cursos.png";
 import proyecto2 from "../images/404.png";
 import proyecto3 from "../images/MovieApp.png";
+import proyecto4 from "../images/Laravel9-Apis-ReactJs.png";
 const Gallery = () => {
 	return (
 		<section className="text-stone-400 font-semibold bg-stone-900 body-font mdx1:h-screen grid items-center ">
@@ -84,6 +85,28 @@ const Gallery = () => {
 									<p className="leading-relaxed">
 										Movie App from scratch with Html Css and Js, using TMDB Api
 										with http method
+									</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
+						<div className="flex relative h-full">
+							<img
+								alt="gallery"
+								className="absolute inset-0 w-full h-full object-cover object-center left-0 right-0"
+								src={proyecto4}
+							/>
+							<a
+								href="https://inventario-app.netlify.app/"
+								target="_blank"
+								rel="noreferrer">
+								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white ">
+									<h1 className="title-font text-lg font-medium  mb-3">
+										Laravel - CRUD App
+									</h1>
+									<p className="leading-relaxed">
+									Building a CRUD with Laravel, React Js and MySql relational database, Backend Php & Frontend React Js.
 									</p>
 								</div>
 							</a>
