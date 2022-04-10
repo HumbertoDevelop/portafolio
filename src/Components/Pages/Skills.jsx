@@ -12,7 +12,7 @@ const Skills = ({ skills }) => {
 
 	return (
 		<section
-			className="text-stone-300 bg-stone-900 body-font grid items-center justify-center"
+			className="text-stone-300 bg-gradient-to-r from-sky-500 to-indigo-700 body-font grid items-center justify-center"
 			id="aptitudes">
 			<div className="container px-5  mx-auto mdx1:h-screen grid content-center smx2:py-28">
 				<div className="text-center mb-20 smx2:mb-0 smx2:mt-10 ">
@@ -23,7 +23,7 @@ const Skills = ({ skills }) => {
 				<div className="flex flex-wrap lg:w-4/5 sm:mx-auto smx2:mb-2 mx-2">
 					{skills?.map((s) => (
 						<div className="p-2 sm:w-1/2 w-full " key={s}>
-							<div className="bg-stone-600 rounded flex p-4 h-full items-center">
+							<div className="bg-gradient-to-r from-indigo-700 to-sky-900 rounded flex p-4 h-full items-center">
 								<svg
 									fill="none"
 									stroke="currentColor"

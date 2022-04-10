@@ -4,12 +4,12 @@ import React from "react";
 
 const Footer = () => {
 	return (
-		<footer className=" bg-stone-900 text-stone-400 body-font ">
+		<footer className="  text-white body-font bg-gradient-to-r from-sky-500 to-indigo-700">
 			<div className="container px-5 py-3 mx-auto flex items-center justify-between sm:flex-row ">
 				<p className="text-sm flex items-center sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
 					<a
 						href="https://github.com/HumbertoDevelop"
-						className="text-stone-400 ml-1 font-semibold text-lg flex items-center"
+						className="text-white ml-1 font-semibold text-lg flex items-center"
 						target="_blank"
 						rel="noopener noreferrer">
 						{" "}
@@ -24,7 +24,11 @@ const Footer = () => {
 					</a>
 				</p>
 				<span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-					<a href="https://twitter.com/Humbert47535406?t=Q-O4F6bcaULmk-97wsOa0A&s=09" target="_blank" rel="noreferrer" className="ml-3 ">
+					<a
+						href="https://twitter.com/Humbert47535406?t=Q-O4F6bcaULmk-97wsOa0A&s=09"
+						target="_blank"
+						rel="noreferrer"
+						className="ml-3 ">
 						<svg
 							fill="currentColor"
 							strokeLinecap="round"
@@ -36,7 +40,11 @@ const Footer = () => {
 						</svg>
 					</a>
 
-					<a href="https://www.linkedin.com/in/humberto-garcía" target="_blank" rel="noreferrer" className="ml-3 ">
+					<a
+						href="https://www.linkedin.com/in/humberto-garcía"
+						target="_blank"
+						rel="noreferrer"
+						className="ml-3 ">
 						<svg
 							fill="currentColor"
 							stroke="currentColor"

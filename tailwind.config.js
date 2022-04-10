@@ -3,7 +3,12 @@
 module.exports = {
 	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: {
+				'hero-pattern': "url('/img/default.png')",
+				'footer-texture': "url('/img/footer-texture.png')",
+			  }
+		},
 		screens: {
 			smx2: "320px",
 			// => @media (min-width: 320px) { ... }

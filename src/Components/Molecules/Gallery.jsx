@@ -7,7 +7,7 @@ import proyecto3 from "../images/MovieApp.png";
 import proyecto4 from "../images/Laravel9-Apis-ReactJs.png";
 const Gallery = () => {
 	return (
-		<section className="text-stone-400 font-semibold bg-stone-900 body-font mdx1:h-screen grid items-center ">
+		<section className="text-stone-400 bg-gradient-to-r from-sky-500 to-indigo-700 font-semibold  body-font mdx1:h-screen grid items-center ">
 			<div
 				className="container px-5 mx-auto  mdx1:pt-20 smx2:py-28 "
 				id="proyectos">
@@ -32,7 +32,7 @@ const Gallery = () => {
 								href="https://thirsty-fermi-be297c.netlify.app/"
 								target="_blank"
 								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+								<div className=" py-12 relative z-10 w-full border-4 border-sky-900 px-2 bg-gradient-to-r from-sky-800 to-indigo-600  opacity-0 hover:opacity-100 text-white">
 									<h1 className="title-font text-lg font-medium  mb-3">
 										Online Courses PLatform
 									</h1>
@@ -55,7 +55,7 @@ const Gallery = () => {
 								href="https://gentle-praline-4a13cc.netlify.app/"
 								target="_blank"
 								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+								<div className=" py-12 relative z-10 w-full border-4 border-sky-900 px-2 bg-gradient-to-r from-sky-800 to-indigo-600  px-2  opacity-0 hover:opacity-100 text-white">
 									<h1 className="title-font text-lg font-medium  mb-3">
 										Page 404
 									</h1>
@@ -78,7 +78,7 @@ const Gallery = () => {
 								href="https://humbertodevelop.github.io/MovieApp-Js/"
 								target="_blank"
 								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white">
+								<div className=" py-12 relative z-10 w-full border-4 border-sky-900 px-2 bg-gradient-to-r from-sky-800 to-indigo-600  px-2  opacity-0 hover:opacity-100 text-white">
 									<h1 className="title-font text-lg font-medium  mb-3">
 										Movie App
 									</h1>
@@ -101,12 +101,13 @@ const Gallery = () => {
 								href="https://inventario-app.netlify.app/"
 								target="_blank"
 								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-stone-500 px-2 bg-stone-900 opacity-0 hover:opacity-100 text-white ">
+								<div className=" py-12 relative z-10 w-full border-4 border-sky-900 px-2 bg-gradient-to-r from-sky-800 to-indigo-600  px-2  opacity-0 hover:opacity-100 text-white ">
 									<h1 className="title-font text-lg font-medium  mb-3">
 										Laravel - CRUD App
 									</h1>
 									<p className="leading-relaxed">
-									Building a CRUD with Laravel, React Js and MySql relational database, Backend Php & Frontend React Js.
+										Building a CRUD with Laravel, React Js and MySql relational
+										database, Backend Php & Frontend React Js.
 									</p>
 								</div>
 							</a>
