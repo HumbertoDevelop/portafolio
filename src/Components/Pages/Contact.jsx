@@ -12,7 +12,7 @@ const Contact = ({ info }) => {
 	}, [meInfo]);
 	return (
 		<section
-			className="text-stone-800 body-font relative grid items-center smx2:py-28"
+			className="text-stone-800 body-font relative grid items-center smx2:py-28 "
 			id="contactame">
 			<div className="absolute inset-0  ">
 				<iframe
