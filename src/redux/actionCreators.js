@@ -1,8 +1,8 @@
 import axios from "axios";
 import { GET_INFO, GET_SKILLS, GET_PROJECTS } from "./action";
 
-// const API_URL = "https://portafolio-api-v2.herokuapp.com";
-const API_URL = "http://localhost:8000";
+const API_URL = "https://portafolio-api-v2.herokuapp.com";
+// const API_URL = "http://localhost:8000";
 
 export const getMeInfo = () => (dispatch) => {
     axios
