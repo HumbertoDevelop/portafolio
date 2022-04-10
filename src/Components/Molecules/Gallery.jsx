@@ -12,9 +12,7 @@ const Gallery = () => {
 				className="container px-5 mx-auto  mdx1:pt-20 smx2:py-28 "
 				id="proyectos">
 				<div className="flex flex-col text-center w-full mb-5">
-					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold">
-						Portfolio
-					</h1>
+					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold before:content-['<'] after:content-['>'] ">Project</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base font-semibold text-stone-300">
 						With my knowledge in some web technologies, I have created this
 						portfolio to show you what I like to do and how I do it.

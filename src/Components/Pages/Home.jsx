@@ -5,9 +5,6 @@ import picProfile from "../img/pic3.jpg";
 import { connect, useDispatch } from "react-redux";
 import { getMeInfo } from "../../redux/actionCreators.js";
 const Home = ({ info }) => {
-	const viewMove = () => {
-
-	}
 	const meDispatch = useDispatch();
 	useEffect(() => {
 		meDispatch(getMeInfo());
@@ -24,13 +21,8 @@ const Home = ({ info }) => {
 					<p className="mb-8 leading-relaxed font-semibold text-stone-200	smx2:px-2">
 						{info?.description}
 					</p>
-					<div className="flex justify-center items-center">
-							<button className="inline-flex  border-2 border-sky-900 px-2 bg-gradient-to-r from-sky-800 to-indigo-600  py-2 px-6 focus:outline-none hover:bg-gradient-to-l from-indigo-600 to-sky-800 rounded text-lg" onClick={() => viewMove()}>
-								Contact me!
-							</button>
-					</div>
 				</div>
-				<div className="lg:max-w-sm lg:w-full lg:h-3/4 lgx1:w-1/4 w-6/12 flex justify-center smx2:my-10">
+				<div className="lg:max-w-sm lg:w-full lg:h-3/4 lgx1:w-1/4 w-6/12 flex justify-center smx2:my-10 smx2:w-3/4">
 					<img
 						className="object-cover object-center rounded "
 						alt="hero"
