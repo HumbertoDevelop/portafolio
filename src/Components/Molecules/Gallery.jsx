@@ -12,7 +12,9 @@ const Gallery = () => {
 				className="container px-5 mx-auto  mdx1:pt-20 smx2:py-32 "
 				id="proyectos">
 				<div className="flex flex-col text-center w-full mb-5">
-					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold before:content-['<'] after:content-['>'] ">Project</h1>
+					<h1 className="smx2:text-4xl text-2xl font-medium title-font my-4 text-stone-200 font-bold before:content-['<'] after:content-['>'] ">
+						Project
+					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base font-semibold text-stone-300">
 						With my knowledge in some web technologies, I have created this
 						portfolio to show you what I like to do and how I do it.
@@ -42,29 +44,7 @@ const Gallery = () => {
 							</a>
 						</div>
 					</div>
-					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
-						<div className="flex relative h-full">
-							<img
-								alt="gallery"
-								className="absolute inset-0 w-full h-full object-cover object-center"
-								src={proyecto2}
-							/>
-							<a
-								href="https://gentle-praline-4a13cc.netlify.app/"
-								target="_blank"
-								rel="noreferrer">
-								<div className=" py-12 relative z-10 w-full border-4 border-sky-900 px-2 bg-gradient-to-r from-sky-800 to-indigo-600  px-2  opacity-0 hover:opacity-100 text-white">
-									<h1 className="title-font text-lg font-medium  mb-3">
-										Page 404
-									</h1>
-									<p className="leading-relaxed">
-										This static page 404 it was created with Html and Css from
-										scratch.
-									</p>
-								</div>
-							</a>
-						</div>
-					</div>
+
 					<div className="lg:w-1/3 sm:w-1/2 p-2 ">
 						<div className="flex relative h-full">
 							<img
