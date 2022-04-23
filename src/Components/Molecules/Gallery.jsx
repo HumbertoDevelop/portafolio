@@ -2,7 +2,6 @@
 
 import React from "react";
 import proyecto1 from "../images/plataforma-de-cursos.png";
-import proyecto2 from "../images/404.png";
 import proyecto3 from "../images/MovieApp.png";
 import proyecto4 from "../images/Laravel9-Apis-ReactJs.png";
 const Gallery = () => {
