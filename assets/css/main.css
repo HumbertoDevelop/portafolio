@@ -455,6 +455,8 @@ header h6+p {
 
 
 .thumbnails .box {
+
+
 	margin: 0 1em 2em 1em;
 	width: 30%;
 }
@@ -689,6 +691,7 @@ input[type="radio"]+label:before {
 	margin-bottom: 2em;
 	background: #2c2c32;
 	text-align: center;
+	
 }
 
 .box> :last-child,
@@ -1568,4 +1571,22 @@ body.is-loading #banner:before {
 		padding: 3em 0 1em 0;
 	}
 
+}
+
+/* Animations */
+img{
+	animation: scrolling auto linear backwards;
+	animation-timeline: scroll(root);
+	animation-range: entry 10px cover 15px;
+}
+
+
+@keyframes scrolling {
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
 }
